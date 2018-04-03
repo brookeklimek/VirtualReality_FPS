@@ -576,13 +576,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 20
-  projectile: {fileID: 1381225984918540, guid: 40e2fc48e87b7b84e8671e2c0b09cb5a, type: 2}
-  shotPoint: {fileID: 1661958104450450}
   shotForce: 8
   shotTTL: 5
   rechargeTime: 2.2
   startDelay: 5
   minDistance: 50
+  projectile: {fileID: 1381225984918540, guid: 40e2fc48e87b7b84e8671e2c0b09cb5a, type: 2}
+  shotPoint: {fileID: 1661958104450450}
   launchNoise: {fileID: 8300000, guid: 313a312194bd84c57b91c0ca9831ef6e, type: 3}
   playerObject: {fileID: 0}
 --- !u!114 &114167438559032592
@@ -617,6 +617,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e8310010fe4e148e7947746f21ae64be, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  HP: 10
+  health: 200
 --- !u!135 &135009299678551882
 SphereCollider:
   m_ObjectHideFlags: 1
